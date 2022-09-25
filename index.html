@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/10aff87caa.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .left{
+            /*border: 2px solid black;*/
+            width: 120px;
+            margin-top:10px;
+            margin-left: 15px;
+        
+            
+
+        }
+        
+        
+        .right{
+            position: absolute;
+            top:18px;
+            right:60px;
+        }
+        .right li{
+            float: left;
+            list-style: none;
+            padding:0px 12px;
+            font-size: 20px;
+        }
+    .right a {
+        text-decoration: none;
+        color: black;
+    }
+    .right a:hover{
+                color:blue;
+                
+
+    }
+    .but{
+        
+        border-radius: 15px;
+        width: 135px;
+        background-color: purple;
+        height: 35px;
+        
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+
+
+
+
+    }
+    .but:hover{
+        background-color:black;
+        scale: 0.98;
+    }
+    .main{
+        margin: 110px 0px 0px 175px ;
+        width: 300px;
+         display: flex;
+         flex-direction: column;
+         padding: 10px;
+        font-size: 27px;
+    }
+    .icons
+    {
+        margin-left: 185px;
+        margin-top: 15px;
+    }
+    .icons li
+    {
+
+        float: left;
+        list-style: none;
+        padding-right: 18px;
+        cursor: pointer;
+    }
+    .images{
+        position:absolute;
+        top:45px;
+        right: 1px;
+    }
+
+   
+    
+    
+    </style>
+</head>
+<body>
+   <div class="left">
+     
+    <h1>Portfolio</h1>
+
+   </div> 
+
+  
+   <div class="right">
+    <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About</a></li>
+     <li><a href="#">Contact Us</a></li> 
+     <li><a href="#">Skills</a></li>
+     <li><a href="#">Experience</a></li>  
+    </ul>
+    <div class="images" >
+    <img src="girl.jpg" >
+    </div>
+
+    
+   
+   </div>
+   <hr>
+   <div class="main">
+    <h2>Hi There,</h2>
+    <p style="font-weight: bold;padding-top: 20px;">I am <span style="color:orange">Prabin Bhattarai</span></p>
+    <p style="padding-top: 20px;">- <span style="color:crimson">App developer!</span></p>
+    <p style="padding-top: 20px;">- <span style="color:crimson">Software developer!</span></p>
+    <button style="margin-top:90px;" class="but">About Me<span> &copy;</span></button>
+    
+   </div>
+   <div class="icons">
+    <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100026210603687"><i class="fa-brands fa-facebook fa-2x"  style="color:blue"></i></a></li>
+        <li><a href="https://github.com/pra-android"><i class="fa-brands fa-github fa-2x"></i></a></li>
+        <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube fa-2x" style="color:red"></i></a></li>
+        <li><a href="https://www.google.com/webhp?authuser=1"><i class="fa-brands fa-google fa-2x" style="color:orangered"></i></a></li>
+    
+        </ul>
+   </div>
+   
+    
+</body>
+</html> 
